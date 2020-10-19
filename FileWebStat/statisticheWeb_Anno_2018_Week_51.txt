@@ -1,0 +1,4 @@
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/get_aspx_ver.aspx;;20/12/2018 15.14;Unknown;127.0.0.1;0,09375
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/get_aspx_ver.aspx;;20/12/2018 15.14;Unknown;127.0.0.1;0,09375
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/get_aspx_ver.aspx;;20/12/2018 15.21;Unknown;127.0.0.1;0
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/get_aspx_ver.aspx;;20/12/2018 15.21;Unknown;127.0.0.1;0

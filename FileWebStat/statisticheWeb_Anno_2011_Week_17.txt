@@ -1,0 +1,9 @@
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;;22/04/2011 18.58;IE8;192.168.143.142;0,21875
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;22/04/2011 18.58;IE8;192.168.143.142;1,9375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;22/04/2011 18.59;IE8;192.168.143.142;1,40625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;22/04/2011 18.59;IE8;192.168.143.142;0,8125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;22/04/2011 18.59;IE8;192.168.143.142;0,8125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;22/04/2011 18.59;IE8;192.168.143.142;1,1875
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneProgrammata/Schedulazione.aspx?FunId=42;http://192.168.143.142/LeftFrame.aspx;22/04/2011 18.59;IE8;192.168.143.142;10,390625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneProgrammata/Schedula/Associazione_EQ_PMS.aspx;http://192.168.143.142/ManutenzioneProgrammata/Schedulazione.aspx?FunId=42;22/04/2011 18.59;IE8;192.168.143.142;1,859375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneProgrammata/Schedula/Associazione_EQ_PMS.aspx;http://192.168.143.142/ManutenzioneProgrammata/Schedulazione.aspx?FunId=42;22/04/2011 19.02;IE8;192.168.143.142;9,015625

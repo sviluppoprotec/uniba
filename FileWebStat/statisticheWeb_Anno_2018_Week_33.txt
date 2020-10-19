@@ -1,0 +1,11 @@
+Cofely Italia s.p.a. SIR-UNIBA;http://localhost/uniba/Default.aspx;;17/08/2018 19.36;IE6;127.0.0.1;0,1093183
+Cofely Italia s.p.a. SIR-UNIBA;http://localhost/uniba/login.aspx?ReturnUrl=/uniba/Default.aspx;;17/08/2018 19.36;IE6;127.0.0.1;0,6402929
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/Default.aspx;;17/08/2018 19.41;IE6;127.0.0.1;0,0780845
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/login.aspx?ReturnUrl=/uniba/Default.aspx;;17/08/2018 19.41;IE6;127.0.0.1;0,5465915
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/login.aspx;;17/08/2018 19.46;IE6;127.0.0.1;1,0463323
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/get_aspx_ver.aspx;;17/08/2018 19.48;Unknown;127.0.0.1;0
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/get_aspx_ver.aspx;;17/08/2018 19.48;Unknown;127.0.0.1;0
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/uniba/Default.aspx;;17/08/2018 19.57;IE6;127.0.0.1;0,0468507
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/Default.aspx;;17/08/2018 19.57;IE6;127.0.0.1;0,3591887
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/Default.aspx;http://localhost/UNIBA/login.aspx?ReturnUrl=%2funiba%2fDefault.aspx;17/08/2018 19.58;IE6;127.0.0.1;0,2498704
+Engie Servizi s.p.a. SIR-UNIBA;http://localhost/UNIBA/login.aspx?ReturnUrl=/uniba/Default.aspx;http://localhost/UNIBA/login.aspx?ReturnUrl=%2funiba%2fDefault.aspx;17/08/2018 19.58;IE6;127.0.0.1;0,0312338

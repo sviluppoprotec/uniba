@@ -1,0 +1,2 @@
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/get_aspx_ver.aspx;;29/10/2010 11.55;Unknown;192.168.143.142;0,171875
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/get_aspx_ver.aspx;;29/10/2010 11.56;Unknown;192.168.143.142;0,203125

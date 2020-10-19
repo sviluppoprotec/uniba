@@ -1,0 +1,216 @@
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 12.28;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 12.28;IE8;192.168.143.142;0,40625
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 12.28;IE8;192.168.143.142;0,609375
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 12.28;IE8;192.168.143.142;0,9375
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.28;IE8;192.168.143.142;0,421875
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.28;IE8;192.168.143.142;0,546875
+UNIBA;http://192.168.143.142/AnagrafeImpianti/NavigazioneServizi.aspx?FunId=2;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.29;IE8;192.168.143.142;5,1875
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=y&id_comune=0&id_frazione=0;http://192.168.143.142/AnagrafeImpianti/NavigazioneServizi.aspx?FunId=2;31/08/2010 12.29;IE8;192.168.143.142;0,859375
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=y&id_comune=0&id_frazione=0;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=y&id_comune=0&id_frazione=0;31/08/2010 12.29;IE8;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/AnagrafeImpianti/NavigazioneServizi.aspx?FunId=2;http://192.168.143.142/AnagrafeImpianti/NavigazioneServizi.aspx?FunId=2;31/08/2010 12.29;IE8;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.29;IE8;192.168.143.142;2,171875
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.29;IE8;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.30;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.30;IE8;192.168.143.142;0,578125
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=735&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.30;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=735&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=735&FunId=161&TipoOper=write;31/08/2010 12.30;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=735&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=735&FunId=161&TipoOper=write;31/08/2010 12.30;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=741&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=735&FunId=161&TipoOper=write;31/08/2010 12.30;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.30;IE8;192.168.143.142;0,46875
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.30;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/EditRuoli.aspx?ItemID=1&FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.30;IE8;192.168.143.142;0,359375
+UNIBA;http://192.168.143.142/Admin/EditRuoli.aspx?ItemID=1&FunId=57;http://192.168.143.142/Admin/EditRuoli.aspx?ItemID=1&FunId=57;31/08/2010 12.31;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/EditRuoli.aspx?ItemID=1&FunId=57;31/08/2010 12.31;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.31;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.31;IE8;192.168.143.142;0,296875
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 12.31;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 12.31;IE8;192.168.143.142;0,296875
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 12.31;IE8;192.168.143.142;0,140625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 12.31;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 12.31;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.32;IE8;192.168.143.142;2,234375
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 12.32;IE8;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;31/08/2010 12.32;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;31/08/2010 12.32;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 12.32;IE8;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 12.32;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.32;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.32;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.32;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.32;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=741&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.36;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=741&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=741&FunId=161&TipoOper=write;31/08/2010 12.36;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 12.38;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.38;IE8;192.168.143.142;0,046875
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.38;IE8;192.168.143.142;0,515625
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 12.39;IE8;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 12.39;IE8;192.168.143.142;0,3125
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 12.39;IE8;192.168.143.142;0,09375
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 12.39;IE8;192.168.143.142;0,296875
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.39;IE8;192.168.143.142;0,359375
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 12.39;IE8;192.168.143.142;0,53125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.39;IE8;192.168.143.142;5,125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.39;IE8;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.40;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 12.40;IE8;192.168.143.142;0,46875
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/LeftFrame.aspx;31/08/2010 12.40;IE8;192.168.143.142;0,359375
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.40;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=122&FunId=57&descr=COFELY;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 12.40;IE8;192.168.143.142;0,296875
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=122&FunId=57&descr=COFELY;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=122&FunId=57&descr=COFELY;31/08/2010 12.40;IE8;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=122&descr=COFELY;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=122&FunId=57&descr=COFELY;31/08/2010 12.40;IE8;192.168.143.142;0,3125
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=122&descr=COFELY;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=122&descr=COFELY;31/08/2010 12.40;IE8;192.168.143.142;0,09375
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 13.27;IE8;192.168.143.142;0,09375
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 13.27;IE8;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.27;IE8;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.27;IE8;192.168.143.142;0,09375
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.27;IE8;192.168.143.142;0,1875
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.27;IE8;192.168.143.142;0,609375
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 13.27;IE8;192.168.143.142;0,15625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.27;IE8;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.27;IE8;192.168.143.142;0,21875
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.30;IE7;192.168.143.142;0,625
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.30;IE7;192.168.143.142;0,390625
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.30;IE7;192.168.143.142;0,5
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 13.30;IE7;192.168.143.142;4,953125
+UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.30;IE7;192.168.143.142;0,25
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.30;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.30;IE7;192.168.143.142;0,265625
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 13.30;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 13.30;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.30;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.30;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.30;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.30;IE7;192.168.143.142;0,515625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 13.30;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.30;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.30;IE7;192.168.143.142;0,59375
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.45;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.51;IE7;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=666&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=666&FunId=161&TipoOper=write;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=666&FunId=161&TipoOper=write;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=666&FunId=161&TipoOper=write;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 13.51;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.52;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.52;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.52;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.52;IE7;192.168.143.142;0,515625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 13.52;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.52;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.52;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=671&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.52;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=671&FunId=161&TipoOper=write;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=671&FunId=161&TipoOper=write;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=671&FunId=161&TipoOper=write;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.58;IE7;192.168.143.142;0,046875
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.58;IE7;192.168.143.142;0,046875
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 13.58;IE7;192.168.143.142;0,5
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 13.58;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.58;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=667&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 13.58;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.01;IE8;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.01;IE8;192.168.143.142;0,5
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.01;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.01;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.01;IE7;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.03;IE7;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.04;IE7;192.168.143.142;0,515625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.04;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.04;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.04;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=667&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.04;IE7;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=667&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.07;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=667&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=667&FunId=161&TipoOper=write;31/08/2010 14.07;IE7;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=673&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=667&FunId=161&TipoOper=write;31/08/2010 14.07;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=673&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=673&FunId=161&TipoOper=write;31/08/2010 14.10;IE7;192.168.143.142;0,03125
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=673&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=673&FunId=161&TipoOper=write;31/08/2010 14.12;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.12;IE7;192.168.143.142;0,375
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.12;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.12;IE7;192.168.143.142;0,328125
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.12;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.12;IE7;192.168.143.142;0,328125
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.12;IE7;192.168.143.142;0,09375
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0,078125
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.19;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdificiServizi.aspx?itemId=1&descr=AMMINISTRATORI;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.20;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.20;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=715&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/Buildings.aspx?FunId=161;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Gestione/Buildings.aspx?ItemID=715&FunId=161&TipoOper=write;http://192.168.143.142/Gestione/EditBuilding.aspx?ItemID=715&FunId=161&TipoOper=write;31/08/2010 14.20;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.21;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.21;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.21;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;10,28125
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;0,046875
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;0,5
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;31/08/2010 14.21;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.21;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Admin/RuoliEdifici.aspx?ItemID=1&FunId=57&descr=AMMINISTRATORI;http://192.168.143.142/Admin/Ruoli.aspx?FunId=57;31/08/2010 14.21;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.23;IE7;192.168.143.142;2,796875
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 14.23;IE7;192.168.143.142;0,390625
+UNIBA;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;http://192.168.143.142/CommonPage/ListaEdifici.aspx?idcod=&idmodulo=RicercaModulo1&ms=;31/08/2010 14.23;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 14.23;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 14.24;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 14.24;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/ManutenzioneCorrettiva/CreazioneRdL.aspx?FunId=470;31/08/2010 14.24;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 14.24;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 14.24;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 14.25;IE7;192.168.143.142;0,015625
+UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 14.25;IE7;192.168.143.142;0
+UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.25;IE7;192.168.143.142;0,0625
+UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.25;IE7;192.168.143.142;0,5
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/AnagrafeImpianti/NavigazioneDocumenti.aspx?FunId=3;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.26;IE7;192.168.143.142;5,515625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/AnagrafeImpianti/NavigazioneDocumenti.aspx?FunId=3;31/08/2010 14.26;IE7;192.168.143.142;0,28125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/AnagrafeImpianti/NavigazioneDocumenti.aspx?FunId=3;31/08/2010 14.26;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/AnagrafeImpianti/NavigazioneDocumenti.aspx?FunId=3;31/08/2010 14.26;IE7;192.168.143.142;0,265625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 14.26;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 14.26;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 14.27;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/login.aspx?ReturnUrl=%2fDefault.aspx;31/08/2010 14.27;IE7;192.168.143.142;0,28125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/LeftFrame.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.27;IE7;192.168.143.142;0,34375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/MainContent.aspx;http://192.168.143.142/Default.aspx;31/08/2010 14.27;IE7;192.168.143.142;0,65625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/LeftFrame.aspx;31/08/2010 14.27;IE7;192.168.143.142;2,953125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.27;IE7;192.168.143.142;0,09375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.27;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.27;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.27;IE7;192.168.143.142;0,0625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.27;IE7;192.168.143.142;0,59375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,109375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,0625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,03125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,09375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,140625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=409;31/08/2010 14.28;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/RapportoTecnicoIntervento.aspx?WO_Id=8960;;31/08/2010 14.28;IE7;192.168.143.142;0,3125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;31/08/2010 14.29;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/RapportoTecnicoInterventoPdf.aspx?WO_Id=8960;;31/08/2010 14.29;IE7;192.168.143.142;4,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;31/08/2010 14.29;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/RapportoTecnicoIntervento.aspx?WO_Id=8960;;31/08/2010 14.29;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;31/08/2010 14.29;IE7;192.168.143.142;0,125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43196&c=true;31/08/2010 14.30;IE7;192.168.143.142;0,140625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43200&c=true;http://192.168.143.142/ManutenzioneCorrettiva/SfogliaRdl.aspx?FunId=;31/08/2010 14.30;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/ManutenzioneCorrettiva/RapportoTecnicoInterventoPdf.aspx?WO_Id=8964;;31/08/2010 14.30;IE7;192.168.143.142;0,125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Logoff.aspx;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43200&c=true;31/08/2010 15.02;IE7;192.168.143.142;0,140625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43200&c=true;31/08/2010 15.02;IE7;192.168.143.142;0,015625
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;http://192.168.143.142/ManutenzioneCorrettiva/EditSfoglia.aspx?wr_id=43200&c=true;31/08/2010 15.02;IE7;192.168.143.142;0,09375
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;;31/08/2010 15.02;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;31/08/2010 15.02;IE7;192.168.143.142;0
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/Default.aspx;;01/09/2010 16.45;IE8;192.168.143.142;0,328125
+Cofely Italia s.p.a. SIR-UNIBA;http://192.168.143.142/login.aspx?ReturnUrl=/Default.aspx;;01/09/2010 16.45;IE8;192.168.143.142;0,4375
