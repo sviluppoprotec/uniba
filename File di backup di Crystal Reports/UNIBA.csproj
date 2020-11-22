@@ -5107,7 +5107,7 @@
       <DependentUpon>MP_Rapporti_C_MP_long_r6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_r6.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>MP_Rapporti_C_MP_r6.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="StampaRapportiPDF\WebControls\CalendarPicker.ascx.resx">
@@ -5378,7 +5378,6 @@
     <None Include="webcad\images\treeimages\treeimages\casa.psd" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
     <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
   </ItemGroup>
   <ItemGroup>
