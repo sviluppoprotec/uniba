@@ -13,7 +13,7 @@ namespace TheSite.WebControls
 	public class DataPicker : System.Web.UI.UserControl
 	{
 		protected System.Web.UI.HtmlControls.HtmlGenericControl PopupDiv;//div
-		protected System.Web.UI.HtmlControls.HtmlGenericControl DivShim;//iframe
+		protected System.Web.UI.HtmlControls.HtmlIframe DivShim;//iframe
 		protected System.Web.UI.WebControls.Calendar Calendar1;
 		protected S_Controls.S_TextBox txtDataPicker;
 		public string namecontrol=string.Empty;
