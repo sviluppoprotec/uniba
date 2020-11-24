@@ -1,4 +1,4 @@
-<%@ Register TagPrefix="cc1" Namespace="S_Controls" Assembly="S_Controls" %>
+<%@ Register TagPrefix="cc1" Namespace="S_Controls" EnableEventValidation="false" Assembly="S_Controls" %>
 <%@ Register TagPrefix="uc1" TagName="GridTitle" Src="../WebControls/GridTitle.ascx" %>
 <%@ Page language="c#" Codebehind="Pagina_Download.aspx.cs" AutoEventWireup="false" Inherits="StampaRapportiPdf.Pagine.Pagina_Download" %>
 <%@ Register TagPrefix="cc2" Namespace="Csy.WebControls" Assembly="CsyWebControls" %>

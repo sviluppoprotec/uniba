@@ -36,7 +36,7 @@ namespace TheSite.AnagrafeImpianti
 		protected WebControls.RicercaModulo RicercaModulo1;
 		protected WebControls.PageTitle PageTitle1;
 		protected Microsoft.Web.UI.WebControls.TreeView TreeCtrl;
-		protected System.Web.UI.HtmlControls.HtmlGenericControl doctrevew;
+		protected System.Web.UI.HtmlControls.HtmlIframe doctrevew;
 
 		protected System.Web.UI.WebControls.Panel Panel1;
 		protected S_Controls.S_Label lblComuneDescrizione;
