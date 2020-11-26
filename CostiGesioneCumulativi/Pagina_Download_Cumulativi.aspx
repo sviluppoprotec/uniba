@@ -1,8 +1,8 @@
+<%@ Page language="c#" Codebehind="Pagina_Download_Cumulativi.aspx.cs" EnableEventValidation="false" AutoEventWireup="false" Inherits="TheSite.CostiGesioneCumulativi.Pagina_Download_Cumulativi" %>
 <%@ Register TagPrefix="cc1" Namespace="S_Controls" Assembly="S_Controls" %>
 <%@ Register TagPrefix="uc1" TagName="GridTitle" Src="../WebControls/GridTitle.ascx" %>
 <%@ Register TagPrefix="cc2" Namespace="Csy.WebControls" Assembly="CsyWebControls" %>
 <%@ Register TagPrefix="uc1" TagName="PageTitle" Src="../WebControls/PageTitle.ascx" %>
-<%@ Page language="c#" Codebehind="Pagina_Download_Cumulativi.aspx.cs" AutoEventWireup="false" Inherits="TheSite.CostiGesioneCumulativi.Pagina_Download_Cumulativi" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
 	<HEAD>

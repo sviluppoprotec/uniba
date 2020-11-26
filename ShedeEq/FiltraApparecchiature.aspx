@@ -141,7 +141,7 @@
 										enabled="False"></ASP:BUTTON></TD>
 								<TD><ASP:BUTTON id="btnDeselezionaTutto" runat="server" cssclass="btn" width="130px" text="Deseleziona Tutto"
 										enabled="False"></ASP:BUTTON></TD>
-								<TD><ASP:BUTTON id="btnGeneraReportHtml" runat="server" cssclass="btn" width="130px" text="Genera Report Html"
+								<TD style="display: none"><ASP:BUTTON id="btnGeneraReportHtml" runat="server" cssclass="btn" width="130px" text="Genera Report Html"
 										enabled="False"></ASP:BUTTON></TD>
 								<TD><ASP:BUTTON id="btnGeneraReportPdf" runat="server" cssclass="btn" width="130px" text="Genera Report Pdf"
 										enabled="False"></ASP:BUTTON></TD>

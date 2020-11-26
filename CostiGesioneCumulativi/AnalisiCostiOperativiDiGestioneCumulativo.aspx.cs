@@ -1581,7 +1581,7 @@ namespace TheSite.CostiGesioneCumulativi
 		private int insertDb(int nOdl, string strOdl)
 		{
 
-			string nomeFile=this.creaNomeFile(nOdl,0);
+			string nomeFile=this.creaNomeFile(nOdl,0).Replace(":","");
 
 			long dimensionefilePdf = 0;
 			long dimensionefileZip = 0;
