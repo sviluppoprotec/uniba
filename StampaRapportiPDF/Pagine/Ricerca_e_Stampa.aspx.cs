@@ -373,7 +373,7 @@ namespace StampaRapportiPdf.Pagine
 			clDatiRicerca.Add(Cursor);
 
 			
-			io_db.NameProcedureDb = "rapportipdf.get_data_ricerca_report";
+			io_db.NameProcedureDb = "PACK_RAPPORTIMP.get_data_ricerca_report";
 			DataSet dsDatiRicerca = io_db.GetData(clDatiRicerca).Copy();
 
 			DatasetReport DsTipizzato = new DatasetReport();
@@ -1134,7 +1134,7 @@ namespace StampaRapportiPdf.Pagine
 			Cursor.Index = clDatiStampa.Count + 1;
 			clDatiStampa.Add(Cursor);
 
-			io_db.NameProcedureDb = "RapportiPdf.get_data_reports";
+			io_db.NameProcedureDb = "PACK_RAPPORTIMP.get_data_reports";
 			DataSet dsDatiStampa = io_db.GetData(clDatiStampa).Copy();
 
 			DatasetReport DsTipizzato = new DatasetReport();
