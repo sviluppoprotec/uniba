@@ -804,7 +804,7 @@ namespace TheSite.Classi.ManCorrettiva
 			s_p_username.DbType = CustomDBType.VarChar;
 			s_p_username.Direction = ParameterDirection.Input;
 			s_p_username.Index = CollezioneControlli.Count + 1;
-			s_p_username.Value =this.username;
+			s_p_username.Value = System.Web.HttpContext.Current.User.Identity.Name;
 			s_p_username.Size=50; 
 			CollezioneControlli.Add(s_p_username);
 

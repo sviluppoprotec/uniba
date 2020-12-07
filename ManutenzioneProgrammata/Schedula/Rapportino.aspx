@@ -157,20 +157,7 @@
 														<TD style="HEIGHT: 23px">
 															<CC1:S_COMBOBOX id="cmbsAnno" runat="server" width="288px" dbsize="5" dbdirection="Input" dbindex="5"
 																dbdatatype="Integer" autopostback="True">
-																<ASP:LISTITEM value="1990">1990</ASP:LISTITEM>
-																<ASP:LISTITEM value="1991">1991</ASP:LISTITEM>
-																<ASP:LISTITEM value="1992">1992</ASP:LISTITEM>
-																<ASP:LISTITEM value="1993">1993</ASP:LISTITEM>
-																<ASP:LISTITEM value="1994">1994</ASP:LISTITEM>
-																<ASP:LISTITEM value="1995">1995</ASP:LISTITEM>
-																<ASP:LISTITEM value="1996">1996</ASP:LISTITEM>
-																<ASP:LISTITEM value="1997">1997</ASP:LISTITEM>
-																<ASP:LISTITEM value="1998">1998</ASP:LISTITEM>
-																<ASP:LISTITEM value="1999">1999</ASP:LISTITEM>
-																<ASP:LISTITEM value="2000">2000</ASP:LISTITEM>
-																<ASP:LISTITEM value="2001">2001</ASP:LISTITEM>
-																<ASP:LISTITEM value="2002">2002</ASP:LISTITEM>
-																<ASP:LISTITEM value="2003">2003</ASP:LISTITEM>
+															    <ASP:LISTITEM value="2003">2003</ASP:LISTITEM>
 																<ASP:LISTITEM value="2004">2004</ASP:LISTITEM>
 																<ASP:LISTITEM value="2005">2005</ASP:LISTITEM>
 																<ASP:LISTITEM value="2006">2006</ASP:LISTITEM>
@@ -183,6 +170,13 @@
 																<ASP:LISTITEM value="2013">2013</ASP:LISTITEM>
 																<ASP:LISTITEM value="2014">2014</ASP:LISTITEM>
 																<ASP:LISTITEM value="2015">2015</ASP:LISTITEM>
+																<ASP:LISTITEM value="2016">2016</ASP:LISTITEM>
+																<ASP:LISTITEM value="2017">2017</ASP:LISTITEM>
+																<ASP:LISTITEM value="2018">2018</ASP:LISTITEM>
+																<ASP:LISTITEM value="2019">2019</ASP:LISTITEM>
+																<ASP:LISTITEM value="2020">2020</ASP:LISTITEM>
+																<ASP:LISTITEM value="2021">2021</ASP:LISTITEM>
+																<ASP:LISTITEM value="2022">2022</ASP:LISTITEM>
 															</CC1:S_COMBOBOX></TD>
 														<TD style="HEIGHT: 23px">Mesi:</TD>
 														<TD style="HEIGHT: 23px">Da:

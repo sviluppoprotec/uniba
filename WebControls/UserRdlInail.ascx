@@ -394,10 +394,10 @@ function imposta_int(obj)
 		var datamin = document.getElementById('<%=lblDataRichiesta.ClientID%>').innerText
 		var oramin=document.getElementById('<%=lblOraRichiesta.ClientID%>').innerText
 				
-		var orario=oramin.split(".");
+		var orario=oramin.split(":");
 		
 		var ore = orario[0];
-		var minuti= orario[1]; 
+        var minuti = orario[1] && orario[1] || '0'; 
 			
 		if (ore.length==1)
 		{

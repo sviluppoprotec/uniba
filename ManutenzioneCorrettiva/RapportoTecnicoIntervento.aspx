@@ -11,7 +11,6 @@
 		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 		<style>TABLE { FONT-SIZE: 8px; FONT-FAMILY: Arial }
 		</style>
-        <a href="../Log/">../Log/</a>
 		<script language="javascript">
 		 function stampa()
 		 {		  
@@ -33,7 +32,7 @@
 					<td align="left" width="100%" colSpan="4"><FONT face="Arial" size="3"><strong></strong></FONT></td>
 				</tr>
 				<tr>
-					<td><IMG src="../Images/LogoUsl3Catania.jpg" >
+					<td><IMG src="../Images/LogoPiccolo.gif" >
 					</td>
 				</tr>
 				<TR>

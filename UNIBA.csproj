@@ -2323,6 +2323,7 @@
     <Content Include="ErrorPage.aspx">
       <SubType>Form</SubType>
     </Content>
+    <Content Include="favicon.ico" />
     <Content Include="GestioneSpazi\RicercaSpazi.aspx">
       <SubType>Form</SubType>
     </Content>
