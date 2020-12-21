@@ -1,82 +1,104 @@
 <%@ Register TagPrefix="cc1" Namespace="S_Controls" Assembly="S_Controls" %>
-<%@ Page language="c#" Codebehind="Login.aspx.cs" AutoEventWireup="false" Inherits="TheSite.Login" %>
+
+<%@ Page Language="c#" CodeBehind="Login.aspx.cs" AutoEventWireup="false" Inherits="TheSite.Login" %>
+
 <%@ Register TagPrefix="MessPanel" Namespace="Csy.WebControls" Assembly="CsyWebControls" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
-<HTML>
-	<HEAD>
-		<TITLE>Login</TITLE>
-		<META content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
-		<META content="C#" name="CODE_LANGUAGE">
-		<META content="JavaScript" name="vs_defaultClientScript">
-		<META content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
-		<STYLE type="text/css">BODY { MARGIN: 0px }
-	INPUT { BORDER-RIGHT: #464a50 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #464a50 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; BORDER-LEFT: #464a50 1px solid; COLOR: #0a305c; PADDING-TOP: 2px; BORDER-BOTTOM: #464a50 1px solid; FONT-FAMILY: Tahoma }
-		</STYLE>
-		<!--<LINK href="Styles/MenuStyle.css" type="text/css" rel="stylesheet">-->
-		<LINK href="Css/MainSheet.css" type="text/css" rel="stylesheet">
-		<SCRIPT language="javascript">		 
-		 if (typeof(parent.left) != "undefined")
-		 {
-		   top.document.location.href='Default.aspx'
-		  }
-		</SCRIPT>
-	</HEAD>
-	<BODY ms_positioning="GridLayout">
-		<FORM id="Form1" method="post" runat="server">
-			<TABLE height="100%" cellspacing="0" cellpadding="0" align="center" border="0">
-				<TR>
-					<TD style="HEIGHT: 0.24%">&nbsp;</TD>
-				</TR>
-				<TR>
-					<TD valign="middle">
-						<DIV align="center">
-							<TABLE style="BORDER-RIGHT: slategray 1px outset; BORDER-TOP: slategray 1px outset; BORDER-LEFT: slategray 1px outset; WIDTH: 430px; BORDER-BOTTOM: slategray 1px outset; HEIGHT: 300px"
-								cellspacing="1" cellpadding="2" align="center" bgcolor="#0066ff" border="0">
-								<TR>
-									<TD style="HEIGHT: 35px" valign="middle" colspan="2" class="TitleSearch" align="center">
-										<B>
-											<%= System.Configuration.ConfigurationSettings.AppSettings["ApplicationName"]%>
-										</B>
-									</TD>
-								</TR>
-								<TR>
-									<TD style="WIDTH: 130px; HEIGHT: 95px" valign="middle"></TD>
-									<TD></TD>
-								</TR>
-								<TR>
-									<TD style="HEIGHT: 18px" valign="middle" align="right">
-										<SPAN class="TestoNormale" style="COLOR: white">USER</SPAN></TD>
-									<TD style="HEIGHT: 18px">
-										<CC1:S_TEXTBOX id="txtsUserName" runat="server" dbdirection="Input" dbsize="50" dbparametername="p_UserName"
-											width="130px"></CC1:S_TEXTBOX>
-										<ASP:REQUIREDFIELDVALIDATOR id="rfvUserName" runat="server" cssclass="LabelErrore" controltovalidate="txtsUserName"
-											errormessage="Inserire l'utenza" forecolor="White"></ASP:REQUIREDFIELDVALIDATOR></TD>
-								</TR>
-								<TR>
-									<TD style="HEIGHT: 13px" valign="middle" align="right">
-										<SPAN class="TestoNormale" style="COLOR: white">PASSWORD</SPAN></TD>
-									<TD style="HEIGHT: 13px"><CC1:S_TEXTBOX id="txtsPasword" runat="server" dbdirection="Input" dbsize="50" dbparametername="p_Password"
-											width="130px" dbindex="1" textmode="Password"></CC1:S_TEXTBOX><ASP:REQUIREDFIELDVALIDATOR id="rfvPassword" runat="server" cssclass="LabelErrore" controltovalidate="txtsPasword"
-											errormessage="Inserire la password" forecolor="White"></ASP:REQUIREDFIELDVALIDATOR></TD>
-								</TR>
-								<TR>
-									<TD style="HEIGHT: 43px" colspan="2" align="center"><ASP:BUTTON id="BttConferma" runat="server" text="Conferma" cssclass="btn"></ASP:BUTTON></TD>
-								</TR>
-								<TR>									
-									<TD colspan="2">Inserisci la username e la password relativa al sistema informativo per la gestione dei servizi di: <b>SIR UNIBA</b></TD>
-								</TR>
-								<TR>
-									<TD colspan="2" align="center">
-										<P align="center">
-											<MESSPANEL:MESSAGEPANEL id="PanelMess" runat="server" messageiconurl="~/Images/ico_info.gif" erroriconurl="~/Images/ico_critical.gif"
-												horizontalalign="Center" wrap="False"></MESSPANEL:MESSAGEPANEL></P>
-									</TD>
-								</TR>
-							</TABLE>
-						</DIV>
-					</TD>
-				</TR>
-			</TABLE>
-		</FORM>
-	</BODY>
-</HTML>
+<html>
+<head>
+    <title>Login</title>
+    <meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+    <meta content="C#" name="CODE_LANGUAGE">
+    <meta content="JavaScript" name="vs_defaultClientScript">
+    <meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+    <style type="text/css">
+        BODY {
+            MARGIN: 0px
+        }
+
+        INPUT {
+            BORDER-RIGHT: #464a50 1px solid;
+            PADDING-RIGHT: 2px;
+            BORDER-TOP: #464a50 1px solid;
+            PADDING-LEFT: 2px;
+            FONT-WEIGHT: normal;
+            FONT-SIZE: 11px;
+            PADDING-BOTTOM: 2px;
+            BORDER-LEFT: #464a50 1px solid;
+            COLOR: #0a305c;
+            PADDING-TOP: 2px;
+            BORDER-BOTTOM: #464a50 1px solid;
+            FONT-FAMILY: Tahoma
+        }
+    </style>
+    <!--<LINK href="Styles/MenuStyle.css" type="text/css" rel="stylesheet">-->
+    <link href="Css/MainSheet.css" type="text/css" rel="stylesheet">
+    <script language="javascript">		 
+        if (typeof (parent.left) != "undefined") {
+            top.document.location.href = 'Default.aspx'
+        }
+    </script>
+</head>
+<body ms_positioning="GridLayout">
+    <form id="Form1" method="post" runat="server">
+        <table height="100%" cellspacing="0" cellpadding="0" align="center" border="0">
+            <tr>
+                <td style="height: 0.24%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td valign="middle">
+                    <div align="center">
+                        <table style="border-right: slategray 1px outset; border-top: slategray 1px outset; border-left: slategray 1px outset; width: 430px; border-bottom: slategray 1px outset; height: 300px"
+                            cellspacing="1" cellpadding="2" align="center" bgcolor="#0066ff" border="0">
+                            <tr>
+                                <td style="height: 35px" valign="middle" colspan="2" class="TitleSearch" align="center">
+                                    <b>
+                                        <%= System.Configuration.ConfigurationSettings.AppSettings["ApplicationName"]%>
+                                    </b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 130px; height: 95px" valign="middle"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 18px" valign="middle" align="right">
+                                    <span class="TestoNormale" style="color: white">USER</span></td>
+                                <td style="height: 18px">
+                                    <cc1:S_TextBox ID="txtsUserName" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_UserName"
+                                        Width="130px"></cc1:S_TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvUserName" runat="server" CssClass="LabelErrore" ControlToValidate="txtsUserName"
+                                        ErrorMessage="Inserire l'utenza" ForeColor="White"></asp:RequiredFieldValidator></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 13px" valign="middle" align="right">
+                                    <span class="TestoNormale" style="color: white">PASSWORD</span></td>
+                                <td style="height: 13px">
+                                    <cc1:S_TextBox ID="txtsPasword" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_Password"
+                                        Width="130px" DBIndex="1" TextMode="Password"></cc1:S_TextBox><asp:RequiredFieldValidator ID="rfvPassword" runat="server" CssClass="LabelErrore" ControlToValidate="txtsPasword"
+                                            ErrorMessage="Inserire la password" ForeColor="White"></asp:RequiredFieldValidator></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 43px" colspan="2" align="center">
+                                    <asp:Button ID="BttConferma" runat="server" Text="Conferma" CssClass="btn"></asp:Button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Inserisci la username e la password relativa al sistema informativo per la gestione dei servizi di: <b>SIR UNIBA</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <p align="center">
+                                        <MessPanel:MessagePanel ID="PanelMess" runat="server" MessageIconUrl="~/Images/ico_info.gif" ErrorIconUrl="~/Images/ico_critical.gif"
+                                            HorizontalAlign="Center" Wrap="False">
+                                        </MessPanel:MessagePanel>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

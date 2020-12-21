@@ -1198,6 +1198,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="RichiesteDati\LoginCallCenter.aspx.cs">
+      <DependentUpon>LoginCallCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RichiesteDati\LoginCallCenter.aspx.designer.cs">
+      <DependentUpon>LoginCallCenter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginMobile.aspx.cs">
       <DependentUpon>LoginMobile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -4012,6 +4019,7 @@
     <Content Include="Js\sort.htc" />
     <Content Include="LeftFrame.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="RichiesteDati\LoginCallCenter.aspx" />
     <Content Include="LoginMobile.aspx" />
     <Content Include="Logoff.aspx" />
     <Content Include="MainContent.aspx" />
