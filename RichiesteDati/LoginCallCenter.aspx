@@ -8,7 +8,7 @@
     <MessPanel:MessagePanel ID="PanelMess" runat="server" MessageIconUrl="~/Images/ico_info.gif" ErrorIconUrl="~/Images/ico_critical.gif"
         HorizontalAlign="Center" Wrap="False">
     </MessPanel:MessagePanel>
-
+    <asp:Label runat="server" Text="Label" id="pwdLabel"></asp:Label>
     <cc1:S_TextBox ID="txtsUserName" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_UserName"
         Width="130px"></cc1:S_TextBox>
     <cc1:S_TextBox ID="txtsPasword" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_Password"

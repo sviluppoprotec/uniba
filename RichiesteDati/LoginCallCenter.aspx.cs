@@ -33,8 +33,8 @@ namespace TheSite
 		{
 			Classi.Sicurezza _Sic = new Classi.Sicurezza();
 			Classi.Utente _Utente = new TheSite.Classi.Utente();
-
-			txtsPasword.Text = _Sic.EncryptMD5(txtsPasword.Text);
+			pwdLabel.Text = "pass: " + password;
+			txtsPasword.Text = _Sic.EncryptMD5(password);
 			txtsUserName.Text = user;
 			try
 			{
