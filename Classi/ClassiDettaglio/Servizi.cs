@@ -279,6 +279,43 @@ namespace TheSite.Classi.ClassiDettaglio
 
 
 
+		public DataSet GetServiziPerProg(int idprog, int id_bl)
+		{
+			DataSet _Ds;
+
+			S_ControlsCollection CollezioneControlli = new S_ControlsCollection();
+
+			S_Controls.Collections.S_Object s_p_id_bl = new S_Object();
+			s_p_id_bl.ParameterName = "p_id_bl";
+			s_p_id_bl.DbType = CustomDBType.Integer;
+			s_p_id_bl.Direction = ParameterDirection.Input;
+			s_p_id_bl.Index = CollezioneControlli.Count;
+			s_p_id_bl.Value = id_bl;
+			s_p_id_bl.Size = 50;
+			CollezioneControlli.Add(s_p_id_bl);
+
+			S_Controls.Collections.S_Object s_p_progetto = new S_Object();
+			s_p_progetto.ParameterName = "p_progetto";
+			s_p_progetto.DbType = CustomDBType.Integer;
+			s_p_progetto.Direction = ParameterDirection.Input;
+			s_p_progetto.Index = CollezioneControlli.Count;
+			s_p_progetto.Value = idprog;
+			s_p_progetto.Size = 50;
+			CollezioneControlli.Add(s_p_progetto);
+
+			S_Controls.Collections.S_Object s_Cursor = new S_Object();
+			s_Cursor.ParameterName = "IO_CURSOR";
+			s_Cursor.DbType = CustomDBType.Cursor;
+			s_Cursor.Direction = ParameterDirection.Output;
+			s_Cursor.Index = CollezioneControlli.Count;
+			CollezioneControlli.Add(s_Cursor);
+
+			ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
+			string s_StrSql = "PACK_SERVIZI.SP_GETSERVIZIEDIFICIProg";
+			_Ds = _OraDl.GetRows(CollezioneControlli, s_StrSql).Copy();
+
+			return _Ds;
+		}
 
 		#region Metodi Private
 

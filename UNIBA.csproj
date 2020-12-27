@@ -2134,6 +2134,8 @@
       <SubType>Form</SubType>
     </Content>
     <Content Include="AnagrafeImpianti\FullImage.aspx" />
+    <Content Include="AnagrafeImpianti\images\minus.png" />
+    <Content Include="AnagrafeImpianti\images\plus.png" />
     <Content Include="AnagrafeImpianti\ListaApparecchiatureServ.aspx">
       <SubType>Form</SubType>
     </Content>
