@@ -83,7 +83,7 @@
                                     <asp:Button ID="BttConferma" runat="server" Text="Conferma" CssClass="btn"></asp:Button></td>
                             </tr>
                             <tr>
-                                <td colspan="2">Inserisci la username e la password relativa al sistema informativo per la gestione dei servizi di: <b>SIR UNIBA</b></td>
+                                <td colspan="2" align="center">Inserisci la username e la password relativa al sistema informativo: <br /><b>SIR UNIBA</b></td>
                             </tr>
                             <tr>
                                 <td colspan="2" align="center">
