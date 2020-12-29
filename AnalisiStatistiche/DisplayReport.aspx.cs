@@ -159,6 +159,7 @@ namespace TheSite.AnalisiStatistiche
 					Response.Flush();
 					Response.Close();
 					System.IO.File.Delete(Fname);
+
 					break;
 				case "HTML" :
 					rptEngineOra.ReportSource = crReportDocument;
@@ -167,7 +168,10 @@ namespace TheSite.AnalisiStatistiche
 					// non fai nulla
 					break;
 			}
-				
+			crReportDocument.Close();
+			crReportDocument.Dispose();
+			GC.Collect();
+
 
 		}
 		private DsAnalisiStatistiche recuperaDataSet(DsAnalisiStatistiche ds,int tipologiaManutenzione)

@@ -95,6 +95,9 @@ namespace TheSite.ShedeEq
 			Response.Flush();
 			Response.Close();
 			System.IO.File.Delete(Fname);
+			crReportDocument.Close();
+			crReportDocument.Dispose();
+			GC.Collect();
 		}
 		private bool ControllaFoto(string NomePhoto)
 		{

@@ -29,6 +29,7 @@ namespace TheSite.CommonPage
 		protected System.Web.UI.WebControls.RequiredFieldValidator rfvconferma;
 		protected System.Web.UI.WebControls.RequiredFieldValidator rfvnuovapawd;
 		protected System.Web.UI.WebControls.CompareValidator CompareValidator1;
+		protected System.Web.UI.WebControls.RegularExpressionValidator regexpValidator;
 		protected System.Web.UI.WebControls.Button BttConferma;
         protected WebControls.PageTitle PageTitle1;
 		public static int FunId = 0;

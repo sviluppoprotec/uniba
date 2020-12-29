@@ -344,7 +344,7 @@
 												<TD width="15%">Destinatari
 												</TD>
 												<TD>
-													<asp:TextBox id="txtsMittente" runat="server" Width="100%" ToolTip="Gli indirizzi mail devono essere separati da ;">francesco.porreca@cofely-gdfsuez.com</asp:TextBox></TD>
+													<asp:TextBox id="txtsMittente" runat="server" Width="100%" ToolTip="Gli indirizzi mail devono essere separati da ;">francesco.porreca@engie.com</asp:TextBox></TD>
 											</TR>
 											<TR>
 												<TD>Data Richiesta

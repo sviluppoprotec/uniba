@@ -93,6 +93,9 @@ namespace TheSite.ManutenzioneCorrettiva
 			Response.Flush();
 			Response.Close();
 			System.IO.File.Delete(Fname);
+			crReportDocument.Close();
+			crReportDocument.Dispose();
+			GC.Collect();
 		}
 	}
 }

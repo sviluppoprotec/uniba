@@ -181,7 +181,7 @@ namespace TheSite
 				string Namefile= System.DateTime.Now.Year.ToString() + System.DateTime.Now.Month.ToString().PadLeft(2,Convert.ToChar("0")) +
 					System.DateTime.Now.Day.ToString().PadLeft(2,Convert.ToChar("0")) +System.DateTime.Now.Second.ToString()  + System.DateTime.Now.Minute.ToString() +
 					System.DateTime.Now.Hour.ToString(); 
-				string path=Server.MapPath("/Inail/Log");
+				string path=Server.MapPath("Log");
 				path=System.IO.Path.Combine(path,Namefile.ToString() + ".html");  
 				using (StreamWriter sw = new StreamWriter(path)) 
 				{

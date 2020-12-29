@@ -1593,6 +1593,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_long_r6.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MP_Rapporti_C_MP_long_r6.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_r6.cs">
@@ -5125,9 +5128,6 @@
     <EmbeddedResource Include="StampaRapportiPDF\Pagine\VisualDWF.aspx.resx">
       <DependentUpon>VisualDWF.aspx.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_long_r6.resx">
-      <DependentUpon>MP_Rapporti_C_MP_long_r6.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_r6.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>MP_Rapporti_C_MP_r6.cs</LastGenOutput>
@@ -5386,7 +5386,10 @@
     <None Include="StampaRapportiPDF\Images\treeimages\Thumbs.db" />
     <None Include="StampaRapportiPDF\Images\treeimages\treeimages\casa.psd" />
     <None Include="StampaRapportiPDF\Images\treeimages\treeimages\Thumbs.db" />
-    <Content Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_long_r6.rpt" />
+    <EmbeddedResource Include="StampaRapportiPDF\Reports\MP_Rapporti_C_MP_long_r6.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MP_Rapporti_C_MP_long_r6.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="StampaRapportiPDF\Schemixsd\DatasetReport.xsx">
       <DependentUpon>DatasetReport.xsd</DependentUpon>
     </None>

@@ -38,6 +38,11 @@
 								ControlToValidate="txtsNewPasword" CssClass="LabelErrore" Display="None"></asp:requiredfieldvalidator>
 							<asp:CompareValidator id="CompareValidator1" runat="server" ErrorMessage="La nuova password deve essere uguale a quella di conferma."
 								ControlToValidate="txtsConfermaPasword" Display="None" ControlToCompare="txtsNewPasword"></asp:CompareValidator>
+							  <!--Password Complessa-->
+                        <asp:RegularExpressionValidator ID="regexpValidator" runat="server" ErrorMessage="La nuova password deve essere lunga 8 caratteri e contenere una maiuscola e un numero"
+                            ControlToValidate="txtsConfermaPasword" Display="None" ControlToCompare="txtsNewPasword" ValidationExpression="^(?:(?=.*[a-z])(?:(?=.*[A-Z])(?=.*[\d\W])|(?=.*\W)(?=.*\d))|(?=.*\W)(?=.*[A-Z])(?=.*\d)).{8,}$"></asp:RegularExpressionValidator>
+                        <!--Fine password complessa-->
+
 							<table style="BORDER-RIGHT: slategray 1px outset; BORDER-TOP: slategray 1px outset; BORDER-LEFT: slategray 1px outset; WIDTH: 346px; BORDER-BOTTOM: slategray 1px outset; HEIGHT: 311px"
 								cellSpacing="1" cellPadding="2" align="center" bgColor="gainsboro" border="0">
 								<TR>

@@ -156,6 +156,9 @@ namespace TheSite.ReportGestioneSpazi
 					// non fai nulla
 					break;
 			}
+			crReportDocument.Close();
+			crReportDocument.Dispose();
+			GC.Collect();
 		}
 
 		private DsGestioneSpazi recuperaDataSet(DsGestioneSpazi ds)
