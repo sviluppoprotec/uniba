@@ -1,8 +1,7 @@
-<%@ Control Language="c#" AutoEventWireup="false" Codebehind="AggiungiSollecito.ascx.cs" Inherits="TheSite.WebControls.AggiungiSollecito" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
-<INPUT id="btsCodice" title="Aggiungi un sollecito alla RDL" style="WIDTH: 136px; HEIGHT: 22px"
-	type="button" value="Aggiungi Sollecito" runat="server" >
-<asp:textbox id="txtWR_ID" runat="server" Width="0px"></asp:textbox>
-<div id="PopupAddSoll" style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; DISPLAY: none; BORDER-LEFT: #000000 1px solid; WIDTH: 850px; BORDER-BOTTOM: #000000 1px solid; POSITION: absolute; HEIGHT: 150px">
-	<IFRAME id="docAddSoll" name="docAddSoll" src="" frameBorder="no" style="WIDTH:850px; HEIGHT: 250px">
-	</IFRAME>
+<%@ Control Language="c#" AutoEventWireup="false" CodeBehind="AggiungiSollecito.ascx.cs" Inherits="TheSite.WebControls.AggiungiSollecito" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
+<input id="btsCodice" title="Aggiungi un sollecito alla RDL" style="width: 136px; height: 22px"
+    type="button" value="Aggiungi Sollecito" runat="server">
+<asp:TextBox ID="txtWR_ID" runat="server" Width="0px" Style="display: none"></asp:TextBox>
+<div id="PopupAddSoll" style="border-right: #000000 1px solid; border-top: #000000 1px solid; display: none; border-left: #000000 1px solid; width: 850px; border-bottom: #000000 1px solid; position: absolute; height: 150px">
+    <iframe id="docAddSoll" name="docAddSoll" src="" frameborder="no" style="width: 850px; height: 250px"></iframe>
 </div>
