@@ -124,11 +124,11 @@ namespace StampaRapportiPdf.Pagine
 			
 			if(!IsPostBack)
 			{
-				riempiCombo("RapportiPdf.bind_edifici",S_cmbEdificio,"System.String");
-				riempiCombo("RapportiPdf.bind_comune",S_cmbComune,"System.Int32");
-				riempiCombo("RapportiPdf.bind_Addetto",S_cmbAddetto,"System.Int32");
-				riempiCombo("RapportiPdf.bind_ditta",S_cmbDitta,"System.Int32");
-				riempiCombo("RapportiPdf.bind_categoria",S_cmbCategoria,"System.Int32");
+				riempiCombo("PACK_RAPPORTIMP.bind_edifici", S_cmbEdificio,"System.String");
+				riempiCombo("PACK_RAPPORTIMP.bind_comune", S_cmbComune,"System.Int32");
+				riempiCombo("PACK_RAPPORTIMP.bind_Addetto", S_cmbAddetto,"System.Int32");
+				riempiCombo("PACK_RAPPORTIMP.bind_ditta", S_cmbDitta,"System.Int32");
+				riempiCombo("PACK_RAPPORTIMP.bind_categoria", S_cmbCategoria,"System.Int32");
 
 				cldpkAAssegnazione.Datazione.Text=	System.DateTime.Today.ToString().Substring(0,10);
 				cldpkDaAssegnazione.Datazione.Text= "01/01/" + System.DateTime.Today.ToString().Substring(6,4);

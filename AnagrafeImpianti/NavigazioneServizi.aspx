@@ -44,7 +44,6 @@
                 color: #333;
                 font-weight: bold;
             }
-
     </style>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -94,7 +93,7 @@
         }
     </script>
 </head>
-<body ms_positioning="GridLayout">
+<body>
     <form id="Form1" method="post" runat="server">
         <table id="TableMain" style="z-index: 101; left: 8px; position: absolute; top: 8px" cellspacing="0"
             cellpadding="0" width="100%" align="center" border="0">
