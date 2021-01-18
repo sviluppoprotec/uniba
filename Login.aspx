@@ -41,7 +41,7 @@
 </head>
 <body ms_positioning="GridLayout">
     <form id="Form1" method="post" runat="server">
-        <table height="100%" cellspacing="0" cellpadding="0" align="center" border="0">
+        <table height="100%" cellspacing="0" cellpadding="0" align="center" border="0" runat="server" id="tableLogin" visible="true">
             <tr>
                 <td style="height: 0.24%">&nbsp;</td>
             </tr>
@@ -83,7 +83,9 @@
                                     <asp:Button ID="BttConferma" runat="server" Text="Conferma" CssClass="btn"></asp:Button></td>
                             </tr>
                             <tr>
-                                <td colspan="2" align="center">Inserisci la username e la password relativa al sistema informativo: <br /><b>SIR UNIBA</b></td>
+                                <td colspan="2" align="center">Inserisci la username e la password relativa al sistema informativo:
+                                    <br />
+                                    <b>SIR UNIBA</b></td>
                             </tr>
                             <tr>
                                 <td colspan="2" align="center">
@@ -99,6 +101,67 @@
                 </td>
             </tr>
         </table>
+
+        <!-- inserimento dati mancanti-->
+        <table height="100%" cellspacing="0" cellpadding="0" align="center" border="0" runat="server" id="tableDati" visible="false">
+            <tr>
+                <td style="height: 0.24%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td valign="middle">
+                    <div align="center">
+                        <table style="border-right: slategray 1px outset; border-top: slategray 1px outset; border-left: slategray 1px outset; width: 430px; border-bottom: slategray 1px outset; height: 300px"
+                            cellspacing="1" cellpadding="2" align="center" bgcolor="#0066ff" border="0">
+                            <tr>
+                                <td style="height: 18px" valign="middle" align="right">
+                                    <span class="TestoNormale" style="color: white">NOME</span></td>
+                                <td style="height: 18px">
+                                    <cc1:S_TextBox ID="S_TextBoxNome" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_UserName"
+                                        Width="130px"></cc1:S_TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorNome" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxNome"
+                                        ErrorMessage="Inserire il nome" ForeColor="White"></asp:RequiredFieldValidator></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 13px" valign="middle" align="right">
+                                    <span class="TestoNormale" style="color: white">COGNOME</span></td>
+                                <td style="height: 13px">
+                                    <cc1:S_TextBox ID="S_TextBoxCognome" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_Password"
+                                        Width="130px" DBIndex="1"></cc1:S_TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxCognome"
+                                            ErrorMessage="Inserire il cognome" ForeColor="White"></asp:RequiredFieldValidator></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 13px" valign="middle" align="right">
+                                    <span class="TestoNormale" style="color: white">EMAIL</span></td>
+                                <td style="height: 13px">
+                                    <cc1:S_TextBox ID="S_TextBoxEmail" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_Password"
+                                        Width="130px" DBIndex="2"></cc1:S_TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxEmail"
+                                            ErrorMessage="Inserire l'email" ForeColor="White"></asp:RequiredFieldValidator></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 43px" colspan="2" align="center">
+                                    <asp:Button ID="ButtonAggiornaDati" runat="server" Text="Conferma" CssClass="btn"></asp:Button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">Inserisci la username e la password relativa al sistema informativo:
+                                    <br />
+                                    <b>SIR UNIBA</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <p align="center">
+                                        <MessPanel:MessagePanel ID="MessagePanel1" runat="server" MessageIconUrl="~/Images/ico_info.gif" ErrorIconUrl="~/Images/ico_critical.gif"
+                                            HorizontalAlign="Center" Wrap="False">
+                                        </MessPanel:MessagePanel>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
     </form>
 </body>
 </html>

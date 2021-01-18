@@ -13,6 +13,13 @@ using System.Web.Security;
 
 namespace TheSite.Classi
 {
+	public class DatiUtente
+	{
+		public string Nome { get; set; }
+		public string Cognome { get; set; }
+		public string Email { get; set; }
+		public bool Complete { get; set; }
+	}
 	/// <summary>
 	/// Descrizione di riepilogo per Utente.
 	/// </summary>
@@ -69,6 +76,17 @@ namespace TheSite.Classi
 			return _MyDs;
 		}
 
+		public DatiUtente CheckDatiUtente()
+		{
+			return new DatiUtente()
+			{
+				Nome = "Osama",
+				Cognome = "Bin Laden",
+				Email = "",
+				Complete = true
+			};
+		}
+
 		/// <summary>
 		/// Ritorna l'esito della procedura di autenticazione passando la pagina
 		/// </summary>
@@ -76,9 +94,28 @@ namespace TheSite.Classi
 		public int Login(Page LoginPage)
 		{
 			S_ControlsCollection _SColl = new S_ControlsCollection();
-			_SColl.AddItems(LoginPage.Controls);
+			var un = ((Login)LoginPage).txtsUserName;
+			S_Controls.Collections.S_Object unc = new S_Controls.Collections.S_Object();
+			unc.ParameterName = un.DBParameterName;
+			unc.DbType = un.DBDataType;
+			unc.Direction = un.DBDirection;
+			unc.Index = un.DBIndex;
+			unc.Value = un.Text;
+			unc.Size = un.DBSize;
 
-            return Login(_SColl);
+			un = ((Login)LoginPage).txtsPasword;
+			S_Controls.Collections.S_Object unp = new S_Controls.Collections.S_Object();
+			unp.ParameterName = un.DBParameterName;
+			unp.DbType = un.DBDataType;
+			unp.Direction = un.DBDirection;
+			unp.Index = un.DBIndex;
+			unp.Value = un.Text;
+			unp.Size = un.DBSize;
+
+			_SColl.Add(unc);
+			_SColl.Add(unp);
+
+			return Login(_SColl);
 
 //			S_Controls.Collections.S_Object s_Cursor = new S_Object();
 //			s_Cursor.ParameterName = "IO_CURSOR";
