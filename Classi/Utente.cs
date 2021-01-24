@@ -10,6 +10,7 @@ using S_Controls.Collections;
 using ApplicationDataLayer;
 using ApplicationDataLayer.DBType;
 using System.Web.Security;
+using System.Data.OracleClient;
 
 namespace TheSite.Classi
 {
@@ -18,7 +19,7 @@ namespace TheSite.Classi
 		public string Nome { get; set; }
 		public string Cognome { get; set; }
 		public string Email { get; set; }
-		public bool Complete { get; set; }
+		
 	}
 	/// <summary>
 	/// Descrizione di riepilogo per Utente.
@@ -76,15 +77,138 @@ namespace TheSite.Classi
 			return _MyDs;
 		}
 
-		public DatiUtente CheckDatiUtente()
+		[Obsolete]
+		public int CheckDatiUtentecount(string userId)
 		{
-			return new DatiUtente()
+
+
+			//S_ControlsCollection _SColl = new S_ControlsCollection();
+
+			//S_Controls.Collections.S_Object s_UserName = new S_Object();
+			//s_UserName.ParameterName = "p_UserName";
+			//s_UserName.DbType = CustomDBType.VarChar;
+			//s_UserName.Direction = ParameterDirection.Input;
+			//s_UserName.Value = this.username;
+			//s_UserName.Index = 0;
+
+			//S_Controls.Collections.S_Object s_Outnumber = new S_Object();
+			//s_Outnumber.ParameterName = "p_outnumber";
+			//s_Outnumber.DbType = CustomDBType.Integer;
+			//s_Outnumber.Direction = ParameterDirection.Output;
+			//s_Outnumber.Index = 1;
+
+			//_SColl.Add(s_UserName);
+			//_SColl.Add(s_Outnumber);
+
+
+			//int i_Result = 0;
+
+			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
+			//i_Result = _OraDl.GetRowsAffected(_SColl, "PACK_UTENTI.SP_UTENTE_DATI_COUNT");
+
+			//return i_Result;
+
+			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
+
+		
+
+			OracleConnection con = new System.Data.OracleClient.OracleConnection(s_ConnStr);
+			con.Open();
+
+			string Sql = "select count(*) as conto from utenti u where u.isactive = 1 and u.categoria = 0 and(u.nome is null or u.cognome is null or u.email is null) and UPPER(U.USERNAME) = UPPER(" +"'"+ userId + "')";
+
+			OracleCommand cmd = new OracleCommand(Sql, con);
+
+			OracleDataReader reader = cmd.ExecuteReader();
+			string result = "0";
+			while (reader.Read())
 			{
-				Nome = "Osama",
-				Cognome = "Bin Laden",
-				Email = "",
-				Complete = true
-			};
+			 result =reader.GetInt32(0).ToString();
+			}
+
+			// Clean up
+			reader.Dispose();
+			cmd.Dispose();
+			con.Dispose();
+
+			return int.Parse(result);
+
+
+
+
+			
+		}
+
+		[Obsolete]
+		public DatiUtente CheckDatiUtente(string userId)
+		{
+			//S_ControlsCollection _SColl = new S_ControlsCollection();
+
+			//S_Controls.Collections.S_Object s_UserName = new S_Object();
+			//s_UserName.ParameterName = "p_UserName";
+			//s_UserName.DbType = CustomDBType.VarChar;
+			//s_UserName.Direction = ParameterDirection.Input;
+			//s_UserName.Value = this.username;
+			//s_UserName.Index = 0;
+
+			//S_Controls.Collections.S_Object s_Cursor = new S_Object();
+			//s_Cursor.ParameterName = "IO_CURSOR";
+			//s_Cursor.DbType = CustomDBType.Cursor;
+			//s_Cursor.Direction = ParameterDirection.Output;
+			//s_Cursor.Index = 1;
+
+			//_SColl.Add(s_UserName);
+			//_SColl.Add(s_Cursor);
+
+			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
+
+			//DataSet _MyDs = _OraDl.GetRows(_SColl, "PACK_UTENTI.SP_UTENTE_DATI").Copy();
+			//int n = _MyDs.Tables[0].Rows.Count;
+
+
+
+			OracleConnection con = new System.Data.OracleClient.OracleConnection(s_ConnStr);
+			con.Open();
+						
+			string Sql = "select nvl(u.nome,' " + "') as nome, nvl(u.cognome, ' " + "') as cognome, nvl(u.email, ' " + "') as email from utenti u where u.isactive = 1 and u.categoria = 0 and(u.nome is null or u.cognome is null or u.email is null) and UPPER(U.USERNAME) = UPPER(" + "'" + userId + "')";
+
+			OracleCommand cmd = new OracleCommand(Sql, con);
+
+			OracleDataReader MyReader = cmd.ExecuteReader();
+			string nome = "";
+			string cognome = "";
+			string email = "";
+			string revisione = "";
+			while (MyReader.Read())
+			{
+				// result =reader.GetInt32(0).ToString();
+
+				nome =	   MyReader.GetString(0) ;
+				cognome =   MyReader.GetString(1);
+				email =	   MyReader.GetString(2);
+				
+			}
+
+			// Clean up
+			MyReader.Dispose();
+			cmd.Dispose();
+			con.Dispose();
+
+			
+
+    //            string nome = _MyDs.Tables[0].Rows[0]["nome"].ToString();
+				//string cognome = _MyDs.Tables[0].Rows[0]["cognome"].ToString();
+				//string email = _MyDs.Tables[0].Rows[0]["email"].ToString();
+				//bool revisione = _MyDs.Tables[0].Rows[0]["revisione"].ToString() == "INSERIRE_SI";
+				return new DatiUtente()
+				{
+					Nome = nome,
+					Cognome = cognome,
+					Email = email
+					
+				};
+			
+			
 		}
 
 		/// <summary>

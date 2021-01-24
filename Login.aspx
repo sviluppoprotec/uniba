@@ -113,6 +113,18 @@
                         <table style="border-right: slategray 1px outset; border-top: slategray 1px outset; border-left: slategray 1px outset; width: 430px; border-bottom: slategray 1px outset; height: 300px"
                             cellspacing="1" cellpadding="2" align="center" bgcolor="#0066ff" border="0">
                             <tr>
+                                <td style="height: 35px" valign="middle" colspan="2" class="TitleSearch" align="center">
+                                    <b>
+                                        <%= System.Configuration.ConfigurationSettings.AppSettings["ApplicationName"]%>
+                                        <p>Ai sensi delle normative sui dati personali si prega di inserire i dati richiesti, altrimenti non è possibile procedere</p>
+                                    </b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 130px; height: 95px" valign="middle"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
                                 <td style="height: 18px" valign="middle" align="right">
                                     <span class="TestoNormale" style="color: white">NOME</span></td>
                                 <td style="height: 18px">

@@ -19,11 +19,12 @@ namespace TheSite
     public class Login : System.Web.UI.Page    // System.Web.UI.Page
     {
         protected System.Web.UI.WebControls.Button BttConferma;
+        protected System.Web.UI.WebControls.Button ButtonAggiornaDati;
         public S_Controls.S_TextBox txtsUserName;
         public S_Controls.S_TextBox txtsPasword;
-        public S_Controls.S_TextBox txtNome;
-        public S_Controls.S_TextBox txtCognome;
-        public S_Controls.S_TextBox txtPassword;
+        public S_Controls.S_TextBox S_TextBoxNome;
+        public S_Controls.S_TextBox S_TextBoxCognome;
+        public S_Controls.S_TextBox S_TextBoxEmail;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvUserName;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvPassword;
         protected Csy.WebControls.MessagePanel PanelMess;
@@ -73,9 +74,12 @@ namespace TheSite
         private void InitializeComponent()
         {
             this.BttConferma.Click += new System.EventHandler(this.BttConferma_Click);
+
+            this.ButtonAggiornaDati.Click += new System.EventHandler(this.ButtonAggiornaDati_Click);
             this.Load += new System.EventHandler(this.Page_Load);
 
         }
+
         #endregion
 
         /// <summary>
@@ -83,6 +87,7 @@ namespace TheSite
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        [Obsolete]
         private void BttConferma_Click(object sender, System.EventArgs e)
         {
             Classi.Sicurezza _Sic = new Classi.Sicurezza();
@@ -129,21 +134,48 @@ namespace TheSite
                     Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
 
                     // Federico Controllo dati utente
-                    var datiUtente = _Utente.CheckDatiUtente();
-                    if (!datiUtente.Complete)
+                    int result = _Utente.CheckDatiUtentecount(txtsUserName.Text);
+                    if (result > 0)
                     {
+                        var datiUtente = _Utente.CheckDatiUtente(txtsUserName.Text);
+
                         tableDati.Visible = true;
                         tableLogin.Visible = false;
+                        S_TextBoxNome.Text = datiUtente.Nome;
+                        S_TextBoxCognome.Text = datiUtente.Cognome;
+                        S_TextBoxEmail.Text = datiUtente.Email;
                         return;
-                    }
-                    // Redirect back to original URL.
-                    Response.Redirect(url);
 
+                        // Redirect back to original URL.
+                    }
+                    Response.Redirect(url);
                 }
                 else
                 {
                     PanelMess.ShowError("Utenza o Password errati", true);
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                //PanelMess.ShowError("Errore interno al Data Base.", true);
+                PanelMess.ShowError(ex.Message.ToString(), true);
+
+            }
+        }
+
+        private void ButtonAggiornaDati_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(S_TextBoxNome.Text.Trim()) ||
+                string.IsNullOrEmpty(S_TextBoxCognome.Text.Trim()) ||
+                string.IsNullOrEmpty(S_TextBoxEmail.Text.Trim()))
+                {
+                    return;
+                }
+                string url = FormsAuthentication.GetRedirectUrl(txtsUserName.Text, false);
+                Response.Redirect(url);
             }
             catch (Exception ex)
             {
