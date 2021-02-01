@@ -1082,7 +1082,15 @@ namespace TheSite.ManutenzioneCorrettiva
 			s_p_Gruppo.Index = 12;
 			s_p_Gruppo.Value = (cmbsGruppo.SelectedValue ==string.Empty)? 0:Int32.Parse(cmbsGruppo.SelectedValue);			
 			_SCollection.Add(s_p_Gruppo);
-		
+
+			S_Controls.Collections.S_Object s_p_validazione = new S_Controls.Collections.S_Object();
+			s_p_validazione.ParameterName = "p_validazione";
+			s_p_validazione.DbType = ApplicationDataLayer.DBType.CustomDBType.Integer;
+			s_p_validazione.Direction = ParameterDirection.Input;
+			s_p_validazione.Index = 16;
+			s_p_validazione.Value = int.Parse(cmbsvalidazione.SelectedValue);
+			_SCollection.Add(s_p_validazione);
+
 			return  _Richiesta.GetSfogliaRDL(_SCollection).Copy();		
 		}
 

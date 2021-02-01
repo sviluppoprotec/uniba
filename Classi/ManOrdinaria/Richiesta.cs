@@ -664,7 +664,24 @@ namespace TheSite.Classi.ManOrdinaria
 			string s_StrSql = "PACK_MAN_ORD.SP_GetSfogliaRDL";
 			_Ds = _OraDl.GetRows(CollezioneControlli, s_StrSql).Copy();			
 
-			return _Ds;	
+			return _Ds;
+
+		  //p_Bl_Id in varchar2,
+    //      p_campus in varchar2,
+    //      p_Wr_Id in number,
+    //      p_Addetto in varchar2,
+    //      p_DataDa in varchar2,
+    //      p_DataA in varchar2,  
+    //      p_Wo_Id in number,
+    //      p_ID_Servizio in number,
+    //      p_Status in number,
+    //      p_Richiedente in varchar2,
+    //      p_Priority in number,
+    //      p_Descrizione in varchar2,
+    //      p_Gruppo in number,
+    //      p_validazione in number,
+    //      p_utente in varchar2,
+    //      IO_CURSOR IN OUT T_CURSOR
 
 		}
 

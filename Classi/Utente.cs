@@ -82,36 +82,6 @@ namespace TheSite.Classi
 		{
 
 
-			//S_ControlsCollection _SColl = new S_ControlsCollection();
-
-			//S_Controls.Collections.S_Object s_UserName = new S_Object();
-			//s_UserName.ParameterName = "p_UserName";
-			//s_UserName.DbType = CustomDBType.VarChar;
-			//s_UserName.Direction = ParameterDirection.Input;
-			//s_UserName.Value = this.username;
-			//s_UserName.Index = 0;
-
-			//S_Controls.Collections.S_Object s_Outnumber = new S_Object();
-			//s_Outnumber.ParameterName = "p_outnumber";
-			//s_Outnumber.DbType = CustomDBType.Integer;
-			//s_Outnumber.Direction = ParameterDirection.Output;
-			//s_Outnumber.Index = 1;
-
-			//_SColl.Add(s_UserName);
-			//_SColl.Add(s_Outnumber);
-
-
-			//int i_Result = 0;
-
-			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
-			//i_Result = _OraDl.GetRowsAffected(_SColl, "PACK_UTENTI.SP_UTENTE_DATI_COUNT");
-
-			//return i_Result;
-
-			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
-
-		
-
 			OracleConnection con = new System.Data.OracleClient.OracleConnection(s_ConnStr);
 			con.Open();
 
@@ -130,42 +100,13 @@ namespace TheSite.Classi
 			reader.Dispose();
 			cmd.Dispose();
 			con.Dispose();
-
 			return int.Parse(result);
-
-
-
-
-			
 		}
 
 		[Obsolete]
 		public DatiUtente CheckDatiUtente(string userId)
 		{
-			//S_ControlsCollection _SColl = new S_ControlsCollection();
-
-			//S_Controls.Collections.S_Object s_UserName = new S_Object();
-			//s_UserName.ParameterName = "p_UserName";
-			//s_UserName.DbType = CustomDBType.VarChar;
-			//s_UserName.Direction = ParameterDirection.Input;
-			//s_UserName.Value = this.username;
-			//s_UserName.Index = 0;
-
-			//S_Controls.Collections.S_Object s_Cursor = new S_Object();
-			//s_Cursor.ParameterName = "IO_CURSOR";
-			//s_Cursor.DbType = CustomDBType.Cursor;
-			//s_Cursor.Direction = ParameterDirection.Output;
-			//s_Cursor.Index = 1;
-
-			//_SColl.Add(s_UserName);
-			//_SColl.Add(s_Cursor);
-
-			//ApplicationDataLayer.OracleDataLayer _OraDl = new OracleDataLayer(s_ConnStr);
-
-			//DataSet _MyDs = _OraDl.GetRows(_SColl, "PACK_UTENTI.SP_UTENTE_DATI").Copy();
-			//int n = _MyDs.Tables[0].Rows.Count;
-
-
+			
 
 			OracleConnection con = new System.Data.OracleClient.OracleConnection(s_ConnStr);
 			con.Open();
@@ -178,7 +119,7 @@ namespace TheSite.Classi
 			string nome = "";
 			string cognome = "";
 			string email = "";
-			string revisione = "";
+			
 			while (MyReader.Read())
 			{
 				// result =reader.GetInt32(0).ToString();
@@ -209,6 +150,37 @@ namespace TheSite.Classi
 				};
 			
 			
+		}
+
+		[Obsolete]
+		public void SaveUserData(string userName, string nome, string cognome, string email)
+		{
+			OracleConnection con = new System.Data.OracleClient.OracleConnection(s_ConnStr);
+			con.Open();
+
+			OracleCommand cmd = new OracleCommand(
+			  "select username from utenti where username='"+ userName+"'", con);
+
+			object sal = cmd.ExecuteScalar();
+			//Console.WriteLine("Employee sal before update: " + sal);
+
+			cmd.CommandText = "update utenti set nome = '"+ nome+
+				"', cognome = '" +cognome + "' , email='" + email+ "'"
+				+ " where username='" + userName + "'";
+
+			// Auto-commit changes
+			int rowsUpdated = cmd.ExecuteNonQuery();
+
+			if (rowsUpdated > 0)
+			{
+				cmd.CommandText = "select username from utenti where username='" + userName + "'";
+				sal = cmd.ExecuteScalar();
+				//Console.WriteLine("Employee sal after update: " + sal);
+			}
+
+			// Clean up
+			cmd.Dispose();
+			con.Dispose();
 		}
 
 		/// <summary>

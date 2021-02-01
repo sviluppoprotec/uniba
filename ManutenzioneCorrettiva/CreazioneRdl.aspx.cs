@@ -158,9 +158,10 @@ namespace TheSite.ManutenzioneCorretiva
 
 				/*cmbsPiano.Enabled=false;
 				cmbsStanza.Enabled=false;
-				cmbsServizio.Enabled=false;
+				cmbsServizio.Enabled = false;
 				cmbsApparecchiatura.Enabled=false;
 				*/
+				cmbsServizio.Enabled = false;
 			}			
 		}
 
@@ -605,8 +606,11 @@ namespace TheSite.ManutenzioneCorretiva
 
 			if (GetVerificaBL(CodEdificio)!= "0")
 			{
-				this.lkbNonEmesse.Text = "Richieste non Emesse per Edificio " + CodEdificio + " : " + GetNumeroNonEmesse(CodEdificio) ;
-				this.LinkApprovate.Text = "Richieste Approvate per Edificio " + CodEdificio + " : " + GetNumeroApprovate(CodEdificio) ;
+				//this.lkbNonEmesse.Text = "Richieste non Emesse per Edificio " + CodEdificio + " : " + GetNumeroNonEmesse(CodEdificio) ;
+				//this.LinkApprovate.Text = "Richieste Approvate per Edificio " + CodEdificio + " : " + GetNumeroApprovate(CodEdificio) ;
+
+				this.lkbNonEmesse.Text = "Richieste non Emesse per Edificio " + CodEdificio ;
+				this.LinkApprovate.Text = "Richieste Approvate per Edificio " + CodEdificio ;
 			}
 			else
 			{
@@ -670,7 +674,7 @@ namespace TheSite.ManutenzioneCorretiva
 				myEnumerator = ArrServizi.GetEnumerator();
 				ViewState.Add("ArrServizi",ArrServizi);
 
-				//cmbsServizio.Enabled=true;
+				cmbsServizio.Enabled=true;
 
 			}
 			else
@@ -925,7 +929,7 @@ namespace TheSite.ManutenzioneCorretiva
 			s_p_sql.Direction = ParameterDirection.Input;
 			s_p_sql.Size =2000;
 			s_p_sql.Index = 0;
-			s_p_sql.Value = " Select count(wr.wr_id) from wr where wr.bl_id = '" + _bl_id + "' and wr.id_wr_status in (1,15) and (wr.tipomanutenzione_id = 1 or wr.tipomanutenzione_id = 3)";
+			s_p_sql.Value = " Select count(wr.wr_id) from wr where wr.tipomanutenzione_id in (1,3) and wr.id_wr_status in (1,15) and wr.bl_id = '" + _bl_id + "'   ";
 			_SCollection.Add(s_p_sql);
 
 			S_Controls.Collections.S_Object s_Cursor = new S_Object();
@@ -958,7 +962,7 @@ namespace TheSite.ManutenzioneCorretiva
 			s_p_sql.Direction = ParameterDirection.Input;
 			s_p_sql.Size =2000;
 			s_p_sql.Index = 0;
-			s_p_sql.Value = " Select count(wr.wr_id) from wr where wr.bl_id = '" + _bl_id + "' and wr.id_wr_status not in (1,15) and (wr.tipomanutenzione_id = 1 or wr.tipomanutenzione_id = 3) ";
+			s_p_sql.Value = " Select count(wr.wr_id) from wr where wr.tipomanutenzione_id in (1,3) and wr.id_wr_status not in (1,15) and wr.bl_id = '" + _bl_id + "'   ";
 			_SCollection.Add(s_p_sql);
 
 			S_Controls.Collections.S_Object s_Cursor = new S_Object();

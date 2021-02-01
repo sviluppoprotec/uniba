@@ -146,8 +146,14 @@
                                     <span class="TestoNormale" style="color: white">EMAIL</span></td>
                                 <td style="height: 13px">
                                     <cc1:S_TextBox ID="S_TextBoxEmail" runat="server" DBDirection="Input" DBSize="50" DBParameterName="p_Password"
-                                        Width="130px" DBIndex="2"></cc1:S_TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxEmail"
-                                            ErrorMessage="Inserire l'email" ForeColor="White"></asp:RequiredFieldValidator></td>
+                                        Width="130px" DBIndex="2"></cc1:S_TextBox>
+                                    <asp:RegularExpressionValidator ID="EmailValidator" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxEmail"
+                                        ForeColor="White" ValidationExpression="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                                        ErrorMessage="Email non valida" />
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" CssClass="LabelErrore" ControlToValidate="S_TextBoxEmail"
+                                        ErrorMessage="Inserire l'email" ForeColor="White"></asp:RequiredFieldValidator>
+
+                                </td>
                             </tr>
                             <tr>
                                 <td style="height: 43px" colspan="2" align="center">

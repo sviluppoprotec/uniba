@@ -27,6 +27,7 @@ namespace TheSite
         public S_Controls.S_TextBox S_TextBoxEmail;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvUserName;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvPassword;
+        protected System.Web.UI.WebControls.RegularExpressionValidator EmailValidator;
         protected Csy.WebControls.MessagePanel PanelMess;
 
         public HtmlTable tableLogin;
@@ -166,14 +167,16 @@ namespace TheSite
 
         private void ButtonAggiornaDati_Click(object sender, EventArgs e)
         {
+            Classi.Utente _Utente = new TheSite.Classi.Utente();
             try
             {
                 if (string.IsNullOrEmpty(S_TextBoxNome.Text.Trim()) ||
                 string.IsNullOrEmpty(S_TextBoxCognome.Text.Trim()) ||
-                string.IsNullOrEmpty(S_TextBoxEmail.Text.Trim()))
+                string.IsNullOrEmpty(S_TextBoxEmail.Text.Trim()) || !EmailValidator.IsValid)
                 {
                     return;
                 }
+                _Utente.SaveUserData(txtsUserName.Text, S_TextBoxNome.Text, S_TextBoxCognome.Text, S_TextBoxEmail.Text);
                 string url = FormsAuthentication.GetRedirectUrl(txtsUserName.Text, false);
                 Response.Redirect(url);
             }
