@@ -231,6 +231,38 @@ namespace TheSite.Classi
 //			else
 //				return 0;
 		}
+
+		/// <summary>
+		/// Ritorna l'esito della procedura di autenticazione passando la pagina
+		/// </summary>
+		/// <returns></returns>
+		public int LoginCallcenter(Page LoginPage)
+		{
+			S_ControlsCollection _SColl = new S_ControlsCollection();
+			var un = ((LoginCallCenter)LoginPage).txtsUserName;
+			S_Controls.Collections.S_Object unc = new S_Controls.Collections.S_Object();
+			unc.ParameterName = un.DBParameterName;
+			unc.DbType = un.DBDataType;
+			unc.Direction = un.DBDirection;
+			unc.Index = un.DBIndex;
+			unc.Value = un.Text;
+			unc.Size = un.DBSize;
+
+			un = ((LoginCallCenter)LoginPage).txtsPasword;
+			S_Controls.Collections.S_Object unp = new S_Controls.Collections.S_Object();
+			unp.ParameterName = un.DBParameterName;
+			unp.DbType = un.DBDataType;
+			unp.Direction = un.DBDirection;
+			unp.Index = un.DBIndex;
+			unp.Value = un.Text;
+			unp.Size = un.DBSize;
+
+			_SColl.Add(unc);
+			_SColl.Add(unp);
+
+			return Login(_SColl);
+
+		}
 		/// <summary>
 		/// Ritorna l'esito della procedura di autenticazione passando i Parametri
 		/// </summary>

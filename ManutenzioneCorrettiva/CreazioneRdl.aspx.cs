@@ -996,7 +996,7 @@ namespace TheSite.ManutenzioneCorretiva
 			s_p_sql.Size =2000;
 			s_p_sql.Index = 0;
 			//string sql="select count(wr.bl_id) from wr where wr.bl_id = '" + _bl_id + "' and wr.tipomanutenzione_id = 1";
-			string sql="select count(wr.bl_id) from wr where wr.bl_id = '" + _bl_id + "'";
+			string sql="select count(bl.bl_id) from bl where bl.bl_id = '" + _bl_id + "'";
 			s_p_sql.Value =sql; 
 			_SCollection.Add(s_p_sql);
 
