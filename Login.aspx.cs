@@ -32,6 +32,18 @@ namespace TheSite
 
         public HtmlTable tableLogin;
         public HtmlTable tableDati;
+        
+        int tentativi
+        {
+            get
+            {
+                return (int)Session["tentativiLogin"];
+            }
+            set
+            {
+                Session["tentativiLogin"] = value;
+            }
+        }
 
         /// <summary>
         /// 
@@ -40,8 +52,10 @@ namespace TheSite
         /// <param name="e"></param>
         private void Page_Load(object sender, System.EventArgs e)
         {
-
-
+            if (Session["tentativiLogin"] == null)
+            {
+                tentativi = 0;
+            }
             System.Text.StringBuilder sb = new System.Text.StringBuilder("");
 
             sb.Append("<script language='JavaScript'>");
@@ -91,6 +105,12 @@ namespace TheSite
         [Obsolete]
         private void BttConferma_Click(object sender, System.EventArgs e)
         {
+            int tentativiCorrenti = tentativi + 1;
+            if(tentativiCorrenti > 3)
+            {
+                PanelMess.ShowError("Hai superato il numero max di tentativi ammessi di login (3)", true);
+                return;
+            }
             Classi.Sicurezza _Sic = new Classi.Sicurezza();
             Classi.Utente _Utente = new TheSite.Classi.Utente();
 
@@ -153,7 +173,9 @@ namespace TheSite
                 }
                 else
                 {
-                    PanelMess.ShowError("Utenza o Password errati", true);
+                    string t = tentativiCorrenti == 1 ? "tentativo" : "tentativi";
+                    tentativi = tentativiCorrenti;
+                    PanelMess.ShowError($"Utenza o Password errati: {tentativiCorrenti} {t} ", true);
                 }
             }
             catch (Exception ex)

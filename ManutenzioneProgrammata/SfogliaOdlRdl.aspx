@@ -126,9 +126,9 @@
 											DBDirection="Input" DBSize="5" Width="224px"></cc1:s_combobox></TD>
 								</TR>
 								<TR>
-									<TD style="WIDTH: 15%">Descrizione:</TD>
+									<TD style="WIDTH: 15%"></TD>
 									<TD style="WIDTH: 305px">
-										<cc1:s_textbox id="txtDescrizione" runat="server" Width="260px"></cc1:s_textbox></TD>
+										<cc1:s_textbox id="txtDescrizione" Visible="false" runat="server" Width="260px"></cc1:s_textbox></TD>
 									<TD style="WIDTH: 75px"></TD>
 									<TD></TD>
 								</TR>
@@ -137,9 +137,9 @@
 									<TD style="WIDTH: 305px">
 										<cc1:s_combobox id="cmbsDitta" runat="server" DBDataType="Integer" DBIndex="5" DBParameterName="p_Ditta"
 											DBDirection="Input" DBSize="5" Width="320px" AutoPostBack="True"></cc1:s_combobox></TD>
-									<TD style="WIDTH: 75px">Addetto:</TD>
+									<TD style="WIDTH: 75px"></TD>
 									<TD>
-										<uc1:addetti id="Addetti1" runat="server"></uc1:addetti></TD>
+										<uc1:addetti Visible="false" id="Addetti1" runat="server"></uc1:addetti></TD>
 								</TR>
 								<TR>
 									<TD style="WIDTH: 15%">Servizio:</TD>
@@ -159,7 +159,7 @@
 								</TR>
 								<TR>
 									<TD colSpan="4">
-										<uc1:CodiceApparecchiature id="CodiceApparecchiature1" runat="server"></uc1:CodiceApparecchiature></TD>
+										<uc1:CodiceApparecchiature Visible="false" id="CodiceApparecchiature1" runat="server"></uc1:CodiceApparecchiature></TD>
 								</TR>
 								<TR>
 									<TD style="WIDTH: 15%" colSpan="4">
